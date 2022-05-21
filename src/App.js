@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Ccomponent from './Ccomponent';
+import  Menu  from './Menu';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Ccomponent name = "Ivan"/>
+        <Menu chose = "Pfoto"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -16,6 +20,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          
         </a>
       </header>
     </div>
